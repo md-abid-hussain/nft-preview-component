@@ -11,6 +11,9 @@ module.exports = {
         onormal: "400",
         osemibold: "600",
       },
+      boxShadow: {
+        "3xl": "0 25px 15px 10px #09121e",
+      },
     },
   },
   plugins: [],
