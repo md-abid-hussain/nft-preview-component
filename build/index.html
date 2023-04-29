@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -13,47 +12,38 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
-<body class="grid place-content-center min-h-screen text-lg bg-[#0d192b] text-[#8bacda] font-olight">
-  <main class="bg-[#14253d] max-w-[350px] p-6 rounded-xl shadow-3xl">
+<body class="grid place-content-center min-h-screen text-lg bg-custom-body-blue text-custom-blue font-olight">
+  <main class="bg-custom-card-blue max-w-mobile p-6 rounded-xl shadow-3xl">
     <figure class="relative">
       <a id="view" href="#"
-        class="absolute min-w-[302px] min-h-[302px] rounded-md grid place-content-center hover:bg-[#00fff7] hover:opacity-100 hover:bg-opacity-60 opacity-0">
+        class="absolute min-w-full min-h-full rounded-md grid place-content-center hover:bg-custom-cyan hover:opacity-100 hover:bg-opacity-60 opacity-0">
         <img src="images/icon-view.svg" alt="view icon"></a>
       <img id="nft-photo" src="./images/image-equilibrium.jpg" alt="nft photo" class="w-fit rounded-md">
     </figure>
-    <h1 class="text-2xl text-white my-4"><a href="#" class=" hover:text-[#00fff7] font-osemibold">Equilibrium #3429</a>
+    <h1 class="text-2xl text-white my-4"><a href="#" class=" hover:text-custom-cyan font-osemibold">Equilibrium
+        #3429</a>
     </h1>
 
-    <p class="text-[#8bacda]">Our Equilibrium collection promotes balance and calm.</p>
+    <p class="text-custom-blue">Our Equilibrium collection promotes balance and calm.</p>
 
-    <p class="flex justify-between my-4"><span class="text-[#00fff7] flex items-center gap-2 font-onormal"><img
+    <p class="flex justify-between my-4"><span class="text-custom-cyan flex items-center gap-2 font-onormal"><img
           src="images/icon-ethereum.svg" alt="ethereum logo">0.041 ETH</span>
       <span class="flex items-center gap-1"><img src="images/icon-clock.svg" alt="icon clock">3 days left</span>
     </p>
-    <div class="flex items-center border-t-2 border-t-[#2f415b] pt-4 gap-4">
+    <div class="flex items-center border-t-2 border-t-hr-color pt-4 gap-4">
       <figure><img src="images/image-avatar.png" alt="creator avatar"
           class="border-2 border-white rounded-full w-9 h-9">
       </figure>
-      <p>Creation of <span class="text-white"><a href="#" class="hover:text-[#00fff7]">Jules Wyvern</a></span></p>
+      <p>Creation of <span class="text-white"><a href="#" class="hover:text-custom-cyan">Jules Wyvern</a></span></p>
     </div>
   </main>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub"
-      target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.frontendmentor.io/profile/md-abid-hussain">Md Abid Hussain</a>.
+  <footer class="text-[11px] text-center">
+    Challenge by <a class="text-fr-link"
+      href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a class="text-fr-link" href="https://www.frontendmentor.io/profile/md-abid-hussain">Md Abid Hussain</a>.
   </footer>
 </body>
 
