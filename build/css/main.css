@@ -534,14 +534,6 @@ html {
   position: relative;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -559,16 +551,16 @@ html {
   height: 2.25rem;
 }
 
-.min-h-full {
-  min-height: 100%;
+.min-h-\[302px\] {
+  min-height: 302px;
 }
 
 .min-h-screen {
   min-height: 100vh;
 }
 
-.min-h-\[302px\] {
-  min-height: 302px;
+.min-h-full {
+  min-height: 100%;
 }
 
 .w-9 {
@@ -580,15 +572,19 @@ html {
   width: fit-content;
 }
 
-.min-w-full {
-  min-width: 100%;
-}
-
 .min-w-\[302px\] {
   min-width: 302px;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.max-w-mobile {
   max-width: 350px;
 }
 
@@ -641,17 +637,17 @@ html {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.border-t-\[\#2f415b\] {
+.border-t-hr-color {
   --tw-border-opacity: 1;
   border-top-color: rgb(47 65 91 / var(--tw-border-opacity));
 }
 
-.bg-\[\#0d192b\] {
+.bg-custom-body-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(13 25 43 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#14253d\] {
+.bg-custom-card-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(20 37 61 / var(--tw-bg-opacity));
 }
@@ -664,6 +660,10 @@ html {
   padding-top: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -672,6 +672,15 @@ html {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .font-olight {
@@ -686,14 +695,24 @@ html {
   font-weight: 600;
 }
 
-.text-\[\#00fff7\] {
+.text-\[\#8bacda\] {
+  --tw-text-opacity: 1;
+  color: rgb(139 172 218 / var(--tw-text-opacity));
+}
+
+.text-custom-blue {
+  --tw-text-opacity: 1;
+  color: rgb(139 172 218 / var(--tw-text-opacity));
+}
+
+.text-custom-cyan {
   --tw-text-opacity: 1;
   color: rgb(0 255 247 / var(--tw-text-opacity));
 }
 
-.text-\[\#8bacda\] {
+.text-fr-link {
   --tw-text-opacity: 1;
-  color: rgb(139 172 218 / var(--tw-text-opacity));
+  color: rgb(62 82 163 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -711,15 +730,7 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:z-10:hover {
-  z-index: 10;
-}
-
-.hover\:-z-20:hover {
-  z-index: -20;
-}
-
-.hover\:bg-\[\#00fff7\]:hover {
+.hover\:bg-custom-cyan:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 255 247 / var(--tw-bg-opacity));
 }
@@ -728,7 +739,7 @@ html {
   --tw-bg-opacity: 0.6;
 }
 
-.hover\:text-\[\#00fff7\]:hover {
+.hover\:text-custom-cyan:hover {
   --tw-text-opacity: 1;
   color: rgb(0 255 247 / var(--tw-text-opacity));
 }
