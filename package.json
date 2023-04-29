@@ -4,7 +4,8 @@
   "description": "Frontend mentor challenge for nft preview card",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/main.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/main.css --watch",
+    "prettier":"npx prettier --write ./build/*.html"
   },
   "author": "",
   "license": "ISC",
