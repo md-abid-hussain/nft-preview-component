@@ -28,8 +28,11 @@
 
 <body class="grid place-content-center min-h-screen text-lg bg-[#0d192b] text-[#8bacda] font-olight">
   <main class="bg-[#14253d] max-w-[350px] p-6 rounded-xl">
-    <figure>
-      <img src="./images/image-equilibrium.jpg" alt="nft photo" class="w-fit rounded-md">
+    <figure class="relative">
+      <a id="view" href="#"
+        class="absolute min-w-full min-h-full rounded-md grid place-content-center hover:bg-[#00fff7] hover:bg-opacity-60">
+        <img src="images/icon-view.svg" alt="view icon" class="hidden"></a>
+      <img id="nft-photo" src="./images/image-equilibrium.jpg" alt="nft photo" class="w-fit rounded-md">
     </figure>
     <h1 class="text-2xl text-white my-4"><a href="#" class=" hover:text-[#00fff7] font-osemibold">Equilibrium #3429</a>
     </h1>
@@ -38,7 +41,7 @@
 
     <p class="flex justify-between my-4"><span class="text-[#00fff7] flex items-center gap-2 font-onormal"><img
           src="images/icon-ethereum.svg" alt="ethereum logo">0.041 ETH</span>
-      <span class="flex items-center gap-1"><img src="images/icon-clock.svg">3 days left</span>
+      <span class="flex items-center gap-1"><img src="images/icon-clock.svg" alt="icon clock">3 days left</span>
     </p>
     <div class="flex items-center border-t-2 border-t-[#2f415b] pt-4 gap-4">
       <figure><img src="images/image-avatar.png" alt="creator avatar"
